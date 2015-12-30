@@ -20,7 +20,7 @@ using namespace simply;
 Use the library.
 ``` C++
 static int value { 42 };
-temporary replacement { value, 7 };
+temporary<int> replacement { value, 7 };
 ```
 
 ## build
