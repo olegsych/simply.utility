@@ -1,10 +1,31 @@
-# simply::com
+# simply::utility
 
 A small C++ helper library.
 
-## building
+## use
 
-[![Build status](https://ci.appveyor.com/api/projects/status/github/olegsych/simply.utility?branch=master&retina=true)](https://ci.appveyor.com/project/olegsych/simply-utility/branch/master)
+Add the [simply.utility](http://www.nuget.org/packages/simply.utility) NuGet package to your Visual C++ 
+Native Unit Test project with the [Package Manager Dialog](http://docs.nuget.org/consume/Package-Manager-Dialog) or 
+the [Package Manager Console](http://docs.nuget.org/consume/package-manager-console).
+``` PowerShell
+Install-Package simply.utility
+```
+
+Include the library header and use its namespace.
+``` C++
+#include <simply/utility.h>
+using namespace simply;
+```
+
+Use the library.
+``` C++
+static int value { 42 };
+temporary<int> replacement { value, 7 };
+```
+
+## build
+
+[![Build status](https://ci.appveyor.com/api/projects/status/github/olegsych/simply.utility?branch=master)](https://ci.appveyor.com/project/olegsych/simply-utility/branch/master)
 
 From [Visual Studio 2015](https://www.visualstudio.com/downloads):
 - Open `simply.utility.sln`
@@ -17,7 +38,7 @@ msbuild simply.utility.sln /p:Platform=x86
 msbuild simply.utility.sln /p:Platform=x64
 ```
 
-## testing
+## test
 
 From Visual Studio 2015:
 - Select _Run_ / _All Tests_ from the _Test_ menu

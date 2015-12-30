@@ -1,6 +1,6 @@
 #pragma once
 
-namespace simply { namespace utility
+namespace simply
 {
     template<typename t> class temporary
     {
@@ -19,4 +19,4 @@ namespace simply { namespace utility
         t* target;
         t original;
     };
-}}
+}
