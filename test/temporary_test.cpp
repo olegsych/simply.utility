@@ -4,7 +4,7 @@
 using namespace std;
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace simply { namespace utility 
+namespace simply
 {
     TEST_CLASS(temporary_test)
     {
@@ -28,4 +28,4 @@ namespace simply { namespace utility
             Assert::AreEqual(42, target);
         }
     };
-}}
+}
