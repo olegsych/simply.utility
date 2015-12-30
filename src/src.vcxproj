@@ -25,7 +25,6 @@
   <ItemGroup>
     <ClInclude Include="simply\utility.h" />
     <ClInclude Include="simply\utility\temporary.h" />
-    <ClInclude Include="simply\utility\type_name.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AE155BAE-AD94-4CD3-9BBD-47EAB71DB3FA}</ProjectGuid>
