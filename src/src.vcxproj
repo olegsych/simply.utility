@@ -15,8 +15,7 @@
     <None Include="simply.utility.targets" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="simply\utility.h" />
-    <ClInclude Include="simply\utility\temporary.h" />
+    <ClInclude Include="**\*.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AE155BAE-AD94-4CD3-9BBD-47EAB71DB3FA}</ProjectGuid>
