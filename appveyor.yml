@@ -36,7 +36,7 @@ deploy:
   skip_symbols: true
 - provider: GitHub
   auth_token:
-    secure: qRNM/Z+a//xh4J+/X9n2eni+pbzBicTAnPZd8zn3H94V6RRCQ4SQtcRBYl1nP+7U
+    secure: 0odiqbMNXJj+DNBK/pFP5to5mGxy1JfdSpA6dUA233dNgQitI78fjDm5vgmafgpR
   artifact: /.*\.nupkg/
 
 nuget:
