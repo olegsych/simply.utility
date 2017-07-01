@@ -32,7 +32,7 @@ artifacts:
 deploy:
 - provider: NuGet
   api_key:
-    secure: MllAarE5OQzLPrMNz2oSYIv2A197InquS37HPJ37FyFqrS7WQ1IroGaKol+LCBLG
+    secure: 236NXQ/p6GSTraxqHTtmNVFcDJlTwDjwxzbdJIcDpk8Lu7hAkz1ThK6eqeVeTMz6
   skip_symbols: true
 - provider: GitHub
   auth_token:
